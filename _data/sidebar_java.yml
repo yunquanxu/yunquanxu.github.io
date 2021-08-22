@@ -3,7 +3,7 @@ entries:
   subcategories:
     - title: Core concepts
       items:
-        - title: Introduction
+        - title: 介绍
           url: /java-introduction/
 
         - title: Classes
