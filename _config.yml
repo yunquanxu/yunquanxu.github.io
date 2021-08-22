@@ -1,69 +1,57 @@
-repository: tomjoht/documentation-theme-jekyll
-
-output: web
-# this property is useful for conditional filtering of content that is separate from the PDF.
-
-topnav_title: Jekyll Documentation Theme
-# this appears on the top navigation bar next to the home button
-
-site_title: Jekyll theme for documentation
-# this appears in the html browser tab for the site title (seen mostly by search engines, not users)
-
-company_name: Copyright 2021 Google LLC
-# this appears in the footer
-
-github_editme_path: tomjoht/documentation-theme-jekyll/blob/gh-pages/
-# if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
-
-# gitlab_editme_path: tomjoht/documentation-theme-jekyll/blob/gh-pages/
-# if you're using GitLab, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
-
-google_analytics: UA-66296557-1
-# if you have google-analytics ID, put it in. if not, edit this value to blank.
-
+title: "I'd Rather Be Writing - Tom Johnson"
+name: "I'd Rather Be Writing Blog"
+description: Technical writing blog focusing on the latest trends, news, and other topics in the field of technical communication.
+media: https://s3.us-west-1.wasabisys.com/idbwmedia.com/
 host: 127.0.0.1
-# the preview server used. Leave as is.
-
-port: 4000
-# the port where the preview is rendered. You can leave this as is unless you have other Jekyll builds using this same port that might cause conflicts. in that case, use another port such as 4006.
-
-exclude:
-  - .idea/
-  - .gitignore
-  - vendor
-# these are the files and directories that jekyll will exclude from the build
-
-feedback_subject_line: Jekyll documentation theme
-
+port: 4029
 feedback_email: tomjoht@gmail.com
-# used as a contact email for the Feedback link in the top navigation bar
-
-# feedback_disable: true
-# if you uncomment the previous line, the Feedback link gets removed
-
-# feedback_text: "Need help?"
-# if you uncomment the previous line, it changes the Feedback text
-
-# feedback_link: "http://helpy.io/"
-# if you uncomment the previous line, it changes where the feedback link points to
-
+sidebar_accordion: true
+markdown: redcarpet
+show_audience_label: true
+output: web
+paginate: 15
+timezone: America/Los_Angeles
 highlighter: rouge
-# library used for syntax highlighting
-
 markdown: kramdown
 kramdown:
- input: GFM
- auto_ids: true
- hard_wrap: false
- syntax_highlighter: rouge
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
 
-# filter used to process markdown. note that kramdown differs from github-flavored markdown in some subtle ways
+format: web
+plugins:
+  - jekyll-sitemap
+  - jekyll-mentions
+  - jekyll-redirect-from
+  - jekyll-paginate
+  - jekyll-seo
 
+url: https://idratherbewriting.com
+
+exclude:
+  - _drafts
+  - .idea
+  - _site
+  - vendor
+
+# this enables collections
 collections:
-  tooltips:
-    output: false
-# collections are declared here. this renders the content in _tooltips and processes it, but doesn't output it as actual files in the output unless you change output to true
-
+  restapicourse:
+    output: true
+  publishingapidocs:
+    output: true
+  voiceovertechniques:
+    output: true
+  visualcommunication:
+    output: true
+  podcasts:
+    output: true
+  youngadultnovel:
+    output: true
+  user_centered_doc:
+    output: true
+# these are defaults that get applied to each page or post's frontmatter. leave as is.
+permalink: /:year/:month/:day/:title/
 defaults:
   -
     scope:
@@ -72,19 +60,7 @@ defaults:
     values:
       layout: "page"
       comments: true
-      # if you don't want to use Commento.io and just hide comments, change true to false wherever you see the comments property
       search: true
-      sidebar: home_sidebar
-      topnav: topnav
-  -
-    scope:
-      path: ""
-      type: "tooltips"
-    values:
-      layout: "page"
-      search: true
-      tooltip: true
-
   -
     scope:
       path: ""
@@ -92,29 +68,113 @@ defaults:
     values:
       layout: "post"
       comments: true
-      # if you don't want to use Commento.io and just hide comments, change true to false wherever you see the comments property
       search: true
-      sidebar: home_sidebar
-      topnav: topnav
+      author: <a href='/aboutme/'>Tom Johnson</a>
+  -
+    scope:
+      path: ""
+      type: "tooltips_demo"
+    values:
+      layout: "page"
+      search: true
+  -
+    scope:
+      path: ""
+      type: "restapicourse"
+    values:
+      layout: "page_restapicourse"
+      comments: true
+      search: true
+  -
+    scope:
+      path: ""
+      type: "podcasts"
+    values:
+      layout: "itunes"
 
-# these are defaults used for the frontmatter for these file types
+  -
+    scope:
+      path: ""
+      type: "visualcommunication"
+    values:
+      layout: "page_visualcommunication"
+      comments: true
+      search: true
 
-sidebars:
-- home_sidebar
-- mydoc_sidebar
-- product1_sidebar
-- product2_sidebar
-- other
+  -
+    scope:
+      path: ""
+      type: "youngadultnovel"
+    values:
+      layout: "page_yanovel"
 
-description: "Intended as a documentation theme based on Jekyll for technical writers documenting software and other technical products, this theme has all the elements you would need to handle multiple products with both multi-level sidebar navigation, tags, and other documentation features."
-# the description is used in the feed.xml file
+  -
+    scope:
+      path: ""
+      type: "user_centered_doc"
+    values:
+      layout: "page_user_centered_doc"
+      comments: true
+      search: true
 
-# needed for sitemap.xml file only
-# url: http://idratherbewriting.com
-# baseurl: /documentation-theme-jekyll
+target: web
+
+## itunes feed settings
+
+podcast_url: https://www.idratherbewriting.com
+podcast_album_art: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/idratherbewritinglogo.png
+podcast_title: I'd Rather Be Writing Podcast
+podcast_owner: Tom Johnson
+podcast_email: tomjoht@gmail.com
+podcast_category: Technology
+podcast_explicit: "no"
+podcast_author: Tom Johnson
+podcast_description: Topics and issues for technical writers. Improve your technical communication role. Empower users with better documentation.
+podcast_summary: A technical writing podcast about the latest trends and practices in the field of technical communication. Technical communication includes topics like technical writing (software help), information architecture, usability, API documentation, information design, web design, illustration, DITA, structured authoring, visual communication, and more. If you're a technical writer or interested in technical writing, this is the one of few podcasts in this niche. I also have a blog at https://idratherbewriting.com where the podcasts and other blog topics are published.
+podcast_subtitle: Technical writing trends, innovations, and news. Content original from idratherbewriting.com. Hosted by Tom Johnson.
 
 
-github: [metadata]
+####### Algolia configuration ###########
+algolia:
+  application_id: XUM0ZBII9L
+  index_name: idratherbewriting
+  search_only_api_key: aa11df1f45809fcdfb5b7bc89a301682
+  files_to_exclude:
+    - ./*.html
+    - redirects/*
+    - files/**/*
+    - pages/category-archives/*
+    - pages/date-based-archives/*
+  nodes_to_index: 'p,.description'
+eventbrite_public_token: FUQRFCCTNLYIUXJZQCSV
 
+####### jekyll seo tag configuration #######
+title: I'd Rather Be Writing
+tagline: Technical writing blog focusing on the latest trends, news, and other topics in the field of technical communication.
+description: Technical writing, technical communication, API documentation, trends, and other topics are covered here.
+url: https://idratherbewriting.com
+author:
+  twitter: tomjohnson
+twitter:
+  username: tomjohnson
+  card: summary
 
-# Copyright 2021 Google LLC
+logo: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/idratherbewriting-site-logo.png
+
+social:
+  name: Tom Johnson
+  links:
+    - https://twitter.com/tomjohnson
+    - https://www.facebook.com/tomidbw
+    - https://www.linkedin.com/in/tomjoht/
+    - https://github.com/tomjoht
+
+facebook:
+  app_id: 247143161970549
+  publisher: 3968842976464
+
+webmaster_verifications:
+  google: i1qwK1LFgKEQHUtpm8o7OOOeK9i54NUQwKR4vXRqlFs
+  bing: 352636FE6BAFC693A6938983FC6A227E
+
+lang: en_US
