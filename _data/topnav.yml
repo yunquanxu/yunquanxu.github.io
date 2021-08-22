@@ -4,10 +4,10 @@ topnav:
 - title: Topnav
   subcategories:
 
-    - title: Home
-      url: https://idratherbewriting.com/
+    - title: 首页
+      url: https://blog.xuyunquan.com/
 
-    - title: API documentation course
+    - title: API 文档
       url: /learnapidoc/
 
 
@@ -17,18 +17,18 @@ topnav_dropdowns:
 - title: Topnav dropdowns
   subcategories:
 
-  - title: About
+  - title: 关于
     items:
-    - title: About me
+    - title: 关于我
       url: /aboutme/
     - title: Presentations
       url: /presentations/
-    - title: Contact
+    - title: 联系方式
       url: /contact/
-    - title: Site analytics
+    - title: 站点分析
       url: /analytics/
 
-  - title: Podcasts
+  - title: 博客
     items:
     - title: I'd Rather Be Writing podcasts
       url: /category-podcasts/
@@ -37,7 +37,7 @@ topnav_dropdowns:
     - title: Other tech comm podcasts
       url: /technical-writing-podcasts/
 
-  - title: Archives
+  - title: 档案
     items:
       - title: 2021
         url: /archives-2021/
@@ -74,7 +74,7 @@ topnav_dropdowns:
       - title: Posts by tag
         url: /tags
 
-  - title: Series
+  - title: 系列
     items:
       - title: Reflecting seven years later about why we were laid off
         url: /blog/reflecting-seven-years-later-about-layoff-intro/
