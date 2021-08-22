@@ -1,10 +1,10 @@
-title: "I'd Rather Be Writing - Tom Johnson"
-name: "I'd Rather Be Writing Blog"
+title: "许雲泉的个人网站"
+name: "许雲泉的个人网站"
 description: Technical writing blog focusing on the latest trends, news, and other topics in the field of technical communication.
 media: https://s3.us-west-1.wasabisys.com/idbwmedia.com/
 host: 127.0.0.1
 port: 4029
-feedback_email: tomjoht@gmail.com
+feedback_email: xyunquan@gmail.com
 sidebar_accordion: true
 markdown: redcarpet
 show_audience_label: true
@@ -26,7 +26,7 @@ plugins:
   - jekyll-paginate
   - jekyll-seo
 
-url: https://idratherbewriting.com
+url: https://blog.xuyunquan.com
 
 exclude:
   - _drafts
