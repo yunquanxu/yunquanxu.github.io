@@ -8,4 +8,4 @@ categories:
 jtype: notes_java
 ---
 
-Java 笔记
+This section contains my notes on Java. I put the notes here mainly to provide quick access for me to review and update my knowledge about various Java topics.
