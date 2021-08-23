@@ -17,45 +17,45 @@ topnav_dropdowns:
 - title: Topnav dropdowns
   subcategories:
 
-  - title: 关于
-    items:
-    - title: 关于我
-      url: /aboutme/
-    - title: Presentations
-      url: /presentations/
-    - title: 联系方式
-      url: /contact/
-    - title: 站点分析
-      url: /analytics/
+#  - title: 关于
+#    items:
+#    - title: 关于我
+#      url: /aboutme/
+#    - title: Presentations
+#      url: /presentations/
+#    - title: 联系方式
+#      url: /contact/
+#    - title: 站点分析
+#      url: /analytics/
 
-  - title: 博客
-    items:
-    - title: I'd Rather Be Writing podcasts
-      url: /category-podcasts/
-    - title: Write the Docs podcasts
-      url: /category-wtd-podcasts/
-    - title: Other tech comm podcasts
-      url: /technical-writing-podcasts/
+#  - title: 博客
+#    items:
+#    - title: I'd Rather Be Writing podcasts
+#      url: /category-podcasts/
+#    - title: Write the Docs podcasts
+#      url: /category-wtd-podcasts/
+#    - title: Other tech comm podcasts
+#      url: /technical-writing-podcasts/
 
-  - title: 归档
-    items:
-      - title: 2021
-        url: /archives-2021/
-      - title: 2020
-        url: /archives-2020/
-      - title: Posts by tag
-        url: /tags
+#  - title: 归档
+#    items:
+#      - title: 2021
+#        url: /archives-2021/
+#      - title: 2020
+#        url: /archives-2020/
+#      - title: Posts by tag
+#        url: /tags
 
   - title: 系列
     items:
-      - title: Reflecting seven years later about why we were laid off
-        url: /blog/reflecting-seven-years-later-about-layoff-intro/
+#      - title: Reflecting seven years later about why we were laid off
+#        url: /blog/reflecting-seven-years-later-about-layoff-intro/
 
-      - title: Simplifying complexity
-        url: /simplifying-complexity/index.html
+#      - title: Simplifying complexity
+#        url: /simplifying-complexity/index.html
 
-      - title: Value arguments for docs and tech comm
-        url: /2017/12/28/value-of-tech-comm-in-company-part1/
+#      - title: Value arguments for docs and tech comm
+#        url: /2017/12/28/value-of-tech-comm-in-company-part1/
 
       - title: Java 笔记
         url: https://blog.xuyunquan.com/java-introduction/
@@ -63,24 +63,22 @@ topnav_dropdowns:
       - title: JavaScript 笔记
         url: https://blog.xuyunquan.com/javascript/
 
-      - title: DITA notes
-        url: https://idratherbewriting.com/ditaqrg/
 
-  - title: Misc.
-    items:
+#  - title: Misc.
+#    items:
 
-      - title: Jekyll doc theme
-        external_url: https://idratherbewriting.com/documentation-theme-jekyll/
-      - title: Posts for beginners
-        url: /category-beginners/
-      - title: Technical writing podcasts
-        url: /technical-writing-podcasts/
-      - title: Advertising info
-        url: /advertising/
-      - title: Academic/Practitioner Conversations Project
-        url: /academic-practitioner-project/
-      - title: Donations
-        url: /donate/
+#      - title: Jekyll doc theme
+#        external_url: https://idratherbewriting.com/documentation-theme-jekyll/
+#      - title: Posts for beginners
+#        url: /category-beginners/
+#      - title: Technical writing podcasts
+#        url: /technical-writing-podcasts/
+#      - title: Advertising info
+#        url: /advertising/
+#      - title: Academic/Practitioner Conversations Project
+#        url: /academic-practitioner-project/
+#      - title: Donations
+#        url: /donate/
 
 
 
