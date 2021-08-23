@@ -121,14 +121,14 @@ target: web
 
 ## itunes feed settings
 
-podcast_url: https://www.idratherbewriting.com
+podcast_url: https://blog.xuyunquan.com
 podcast_album_art: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/idratherbewritinglogo.png
-podcast_title: I'd Rather Be Writing Podcast
-podcast_owner: Tom Johnson
-podcast_email: tomjoht@gmail.com
+podcast_title: 许雲泉的个人网站
+podcast_owner: XU YUN QUAN
+podcast_email: xyunquan@gmail.com
 podcast_category: Technology
 podcast_explicit: "no"
-podcast_author: Tom Johnson
+podcast_author: XU YUN QUAN
 podcast_description: Topics and issues for technical writers. Improve your technical communication role. Empower users with better documentation.
 podcast_summary: A technical writing podcast about the latest trends and practices in the field of technical communication. Technical communication includes topics like technical writing (software help), information architecture, usability, API documentation, information design, web design, illustration, DITA, structured authoring, visual communication, and more. If you're a technical writer or interested in technical writing, this is the one of few podcasts in this niche. I also have a blog at https://idratherbewriting.com where the podcasts and other blog topics are published.
 podcast_subtitle: Technical writing trends, innovations, and news. Content original from idratherbewriting.com. Hosted by Tom Johnson.
@@ -177,4 +177,4 @@ webmaster_verifications:
   google: i1qwK1LFgKEQHUtpm8o7OOOeK9i54NUQwKR4vXRqlFs
   bing: 352636FE6BAFC693A6938983FC6A227E
 
-lang: en_US
+lang: zh-CN
