@@ -20,7 +20,7 @@ text_skin: forest # "default" (default), "dark", "forest", "ocean", "chocolate",
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
-title   : xuyunquan的个人站点
+title   : 许云泉的个人网站
 description: > # this means to ignore newlines until "Language & timezone"
   Your Site Description
 
@@ -34,12 +34,12 @@ timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for
 ## => Author and Social
 ##############################
 author:
-  type      : xuyunquan.com# "person" (default), "organization"
+  type      : xuyunquan.com # "person" (default), "organization"
   name      : xuyunquan
   url       : xuyunquan.com
-  avatar    : https://avatars.githubusercontent.com/u/40555483 # path or url of avatar image (square)
-  bio       : 一名软件开发工程师。
-  email     :
+  avatar    : https://avatars.githubusercontent.com/u/40555483?s=96&v=4 # path or url of avatar image (square)
+  bio       : 一名软件开发工程师
+  email     : xuyq456@163.com
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
   twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
   weibo     : # "user_id"   the last part of your profile url, e.g. https://www.weibo.com/user_id/profile?...
@@ -84,14 +84,14 @@ toc:
 ## => Markdown Enhancements
 ##############################
 ## Mathjax
-mathjax: # false (default), true
-mathjax_autoNumber: # false (default), true
+mathjax: true # false (default), true
+mathjax_autoNumber: true # false (default), true
 
 ## Mermaid
-mermaid: # false (default), true
+mermaid: true # false (default), true
 
 ## Chart
-chart: # false (default), true
+chart: true # false (default), true
 
 
 ## => Paginate
@@ -118,11 +118,11 @@ sharing:
 ## => Comments
 ##############################
 comments:
-  provider: false # false (default), "disqus", "gitalk", "valine", "custom"
+  provider: disqus # false (default), "disqus", "gitalk", "valine", "custom"
 
   ## Disqus
   disqus:
-    shortname: # the Disqus shortname for the site
+    shortname: "xuyunquan" # the Disqus shortname for the site
 
   ## Gitalk
   # please refer to https://github.com/gitalk/gitalk for more info.
@@ -147,13 +147,13 @@ comments:
 ## => Pageview
 ##############################
 pageview:
-  provider: false # false (default), "leancloud", "custom"
+  provider: leancloud # false (default), "leancloud", "custom"
 
   ## Leancloud
   leancloud:
-    app_id    : # LeanCloud App id
-    app_key   : # LeanCloud App key
-    app_class : # LeanCloud App class
+    app_id    : "fRA16SSJmLtHExGvz3rL05Xi-gzGzoHsz" # LeanCloud App id
+    app_key   : "HzdG7T4QkH3MdYtGBeyAFzSh" # LeanCloud App key
+    app_class : "blog" # LeanCloud App class
 
 
 ## => Search
@@ -169,12 +169,12 @@ search:
 ## => Analytics
 ##############################
 analytics:
-  provider: false # false (default), "google", "custom"
+  provider: google # false (default), "google", "custom"
 
   ## Google Analytics
   google:
-    tracking_id : # Google Analytics id for the site
-    anonymize_ip: false # Anonymize IP tracking for Analytics
+    tracking_id : "G-8N0VM97DVP" # Google Analytics id for the site
+    anonymize_ip: true # Anonymize IP tracking for Analytics
 
 
 ## => Build
