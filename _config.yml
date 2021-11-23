@@ -17,10 +17,10 @@
 ## => Site Settings
 ##############################
 text_skin: forest # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
-highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
+highlight_theme: tomorrow # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
-title   : 许云泉的个人网站
+title   : 凉木的博客
 description: > # this means to ignore newlines until "Language & timezone"
   Your Site Description
 
@@ -34,11 +34,11 @@ timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for
 ## => Author and Social
 ##############################
 author:
-  type      : xuyunquan.com # "person" (default), "organization"
+  type      : # "person" (default), "organization"
   name      : xuyunquan
-  url       : xuyunquan.com
+  url       : https://xuyunquan.com
   avatar    : https://avatars.githubusercontent.com/u/40555483?s=96&v=4 # path or url of avatar image (square)
-  bio       : 一名软件开发工程师
+  bio       : 一名后端程序员
   email     : xuyq456@163.com
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
   twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
