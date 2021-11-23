@@ -1,4 +1,5 @@
 ---
+author: xuyunquan
 title: Post with Header Image
 tags: TeXt
 article_header:
