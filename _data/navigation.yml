@@ -1,7 +1,7 @@
 header:
   - titles:
       # @start locale config
-      en      : &EN       About
+      en      : &EN       Home
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN
@@ -73,3 +73,17 @@ header:
       fr-LU   : *FR
       # @end locale config
     url: /about.html
+
+java-docs:
+  - title:      Java基础理论
+    children:
+      - title:  Java基础
+        url:    /2018/07/01/Java基础.html
+      - title:  Java进阶
+        url:    /2018/07/02/Java进阶.html
+  - title:      Java进阶实战
+    children:
+      - title:  Configuration
+        url:    /docs/en/configuration
+      - title:  Navigation
+        url:    /docs/en/navigation

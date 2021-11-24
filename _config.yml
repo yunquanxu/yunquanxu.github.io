@@ -118,17 +118,17 @@ sharing:
 ## => Comments
 ##############################
 comments:
-  provider: disqus # false (default), "disqus", "gitalk", "valine", "custom"
+  provider: gitalk # false (default), "disqus", "gitalk", "valine", "custom"
 
   ## Disqus
   disqus:
-    shortname: "xuyunquan" # the Disqus shortname for the site
+    shortname: #"xuyunquan" # the Disqus shortname for the site
 
   ## Gitalk
   # please refer to https://github.com/gitalk/gitalk for more info.
   gitalk:
-    clientID    : # GitHub Application Client ID
-    clientSecret: # GitHub Application Client Secret
+    clientID    : "5ace45f525218b7f0d36" # GitHub Application Client ID
+    clientSecret: "3c5cdb9afa40234cfcca3bf02b8489139e4193d0" # GitHub Application Client Secret
     repository  : # GitHub repo
     owner       : # GitHub repo owner
     admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
