@@ -62,7 +62,7 @@ header:
       en-US   : *EN
       en-CA   : *EN
       en-AU   : *EN
-      zh-Hans : &ZH_HANS  归档
+      zh-Hans : &ZH_HANS  文章列表
       zh      : *ZH_HANS
       zh-CN   : *ZH_HANS
       zh-SG   : *ZH_HANS
@@ -87,9 +87,9 @@ java-docs:
   - title:      Java基础理论
     children:
       - title:  Java集合框架
-        url:    /2018/07/02/Java-集合框架.html
+        url:    /2018/07/02/java-colloe.html
       - title:  Java并发编程
-        url:    /2018/07/01/Java-并发编程.html
+        url:    /2018/07/01/java-并发编程.html
   - title:      JVM虚拟机
     children:
       - title:  JVM内存管理
