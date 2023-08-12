@@ -15,49 +15,79 @@ titles:
 key: page-about
 ---
 
-![TeXt Theme](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-home.jpg)
+ <center>
+     <h1>许雲泉 - Java</h1>
+     <div>
+         <span>
+             手机：17501037442
+         </span>
+         ·
+         <span>
+             邮箱：xuyq456@163.com
+         </span>
+     </div>
+ </center>
 
-TeXt is a super customizable Jekyll theme for personal site, team site, blog, project, documentation, etc. Similar to iOS 11 style, it has large and prominent titles, round buttons and cards.
 
-```javascript
-(() => console.log('Hello, World!'))();
-```
 
-## Features
+ ## 个人信息 
 
-- Responsive
-- Semantic HTML
-- Skins
-- Highlight Theme
-- Internationalization
-- Search
-- Table of contents
-- Authors
-- Additional styles (alert, tag, image, icon, button, grid, etc)
-- Extensions (audios, videos, slides, demos)
-- Markdown enhancements ([MathJax](https://www.mathjax.org/), [mermaid](https://mermaidjs.github.io/), [chartjs](http://www.chartjs.org/))
-- Sharing ([AddToAny](https://www.addtoany.com/), [AddThis](https://www.addthis.com/))
-- Comments ([Disqus](https://disqus.com/), [Gitalk](https://gitalk.github.io/), [Valine](https://valine.js.org/en/))
-- Pageview ([LeanCloud](https://leancloud.cn/))
-- Analytics ([Google Analytics](https://analytics.google.com/analytics/web/))
-- RSS ([jekyll-feed](https://github.com/jekyll/jekyll-feed))
+ - 男，1991 年出生
+ - 求职意向：Java 研发工程师
+ - 工作经验：7 年
 
-## Skins
+## 教育经历
 
-TeXt has 6 built-in skins, you can also set up your own skin.
+- 大专，河南机电高等专科学校，数字化控制技术专业，2012.9~2015.7
 
-| `default` | `dark` | `forest` |
-| --- |  --- | --- |
-| ![Default](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_default.jpg) | ![Dark](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_dark.jpg) | ![Forest](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_forest.jpg) |
+## 工作经历
 
-| `ocean` | `chocolate` | `orange` |
-| --- |  --- | --- |
-| ![Ocean](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_ocean.jpg) | ![Chocolate](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_chocolate.jpg) | ![Orange](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_orange.jpg) |
+- **北京朗杰科技有限公司，研发部门，Java工程师，2018.3~至今**
 
-### Highlight Theme
+  负责仿真云平台项目、千伯知识云项目的研发，以及一体化云平台项目的技术调研。
 
-TeXt use [Tomorrow](https://github.com/chriskempson/tomorrow-theme) as the highlight theme.
+- **北京华科众合科技有限公司，研发部门，Java工程师，2016.6~2018.2**
 
-| `tomorrow` | `tomorrow-night` | `tomorrow-night-eighties` | `tomorrow-night-blue` | `tomorrow-night-bright` |
-| --- |  --- | --- | --- |  --- |
-| ![Tomorrow](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow.png) | ![Tomorrow Night](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night.png) | ![Tomorrow Night Eighties](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-eighties.png) | ![Tomorrow Night Blue](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-blue.png) | ![Tomorrow Night Bright](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-bright.png) |
+  负责魔秀APP服务端、仓储系统、九江管理项目的研发。
+
+## 项目经历
+
+- **一体化云平台项目**
+
+  技术：*Spring Cloud、Spring Boot、Spring Security、MyBatis、MySQL、Docker、Kubernetes 等*。
+
+  业务：针对于压力容器行业，提供应用封装、算法平台、流程管理等核心功能。
+
+  职责：主要负责微服务的技术储备，和基于 K8s 容器化和虚拟化的技术调研。
+
+- **仿真云平台项目**
+
+  技术：*Spring Boot、MyBatis、Spring、Shiro、Slurm、MySQL、RabbitMQ、Nginx、Redis 等*。
+
+  业务：工业数字化平台，提供云超算、云桌面、云应用、云数据、云课堂等核心功能。
+  
+  职责：作为项目主力开发，主要负责应用框架搭建，云桌面、云应用、云课堂业务模块和部分非功能模块的开发；
+  
+  部分中间件的部署与集成；云厂商资源的使用维护和业务对接；第三方的业务对接；项目部分运维；
+  
+  计算集群的搭建。
+  
+- **知识云项目**
+
+  技术：*Spring Boot、MyBatis、Spring、Shiro、MySQL、Elasticsearch、Nginx、Redis 等*
+
+  业务：为企业提供专属知识库，提供知识发布、知识检索、文库、附件预览、知识图谱、知识投资等核心功能。
+  
+  职责：作为项目主力开发，主要负责应用框架搭建，知识检索业务模块与部分非业务模块的开发；
+  
+  部分中间件的部署与集成；项目部分运维。
+
+## 技能清单
+
+- ★★★☆ Java 语言
+- ★★☆☆ Spring 生态、MyBatis、Shiro
+- ★★☆☆ Tomcat 、Nginx
+- ★★☆☆ MySQL、Elasticsearch、RabbitMQ、Redis
+- ★☆☆☆ 分布式微服务
+- ★☆☆☆ Linux 操作、Docker、Kubernetes
+- ★☆☆☆ JavaScript、JQuery、HTML、CSS
